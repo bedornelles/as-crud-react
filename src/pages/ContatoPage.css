@@ -1,0 +1,29 @@
+main{
+    background-color: rgba(227, 227, 227, 0.756);
+    height: 100vh;
+}
+.container__contato{
+    position:relative;
+    left:37%;
+    top:10%;
+}
+input{
+    border-radius: 20px;
+    border-style: none;
+    height: 30px;
+    width: 180px;
+    margin-bottom: 1vh;
+    padding-left: 8px;
+}
+
+.button__contato{
+    width: 80px;
+    background-color: rgb(228, 225, 88);
+    border-style: none;
+    cursor: pointer;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
