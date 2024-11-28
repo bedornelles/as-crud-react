@@ -4,7 +4,7 @@ function CadastrarProdutoPage(){
     const navigation = useNavigate()
 
     async function createProduct(product) {
-        await fetch("http://localhost:3001/products",{
+        await fetch("http://localhost:5173/produtos",{
             method: "POST",
             body: JSON.stringify(product)
         })

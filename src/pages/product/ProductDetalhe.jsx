@@ -6,7 +6,7 @@ function ProductDetalhe(){
     const [product, setProduct] = useState({})
 
     async function getProduct(){
-        const response = await fetch(`http://localhost:3001/products/${params.id}`)
+        const response = await fetch(`http://localhost:5173/produtos/${params.id}`)
         const product = await response.json();
         setProduct(product)
     }

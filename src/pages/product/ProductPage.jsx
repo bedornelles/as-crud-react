@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function ProductPage(){
-    const url = "http://localhost:3001/products"
+    const url = "http://localhost:5173/produtos"
     const navigation = useNavigate();
     const [products, setProducts] = useState([]);
 

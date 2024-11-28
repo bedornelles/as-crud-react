@@ -11,7 +11,7 @@ function ProdutoEditarPage(){
     const [photo, setPhoto] = useState ()
 
     async function getProduct(){
-        const response = await fetch(`http://localhost:3001/products/${params.id}`)
+        const response = await fetch(`http://localhost:5173/produtos/${params.id}`)
         const product = await response.json();
         setName(product.name)
         setPrice(product.price)
@@ -21,7 +21,7 @@ function ProdutoEditarPage(){
     }
 
     async function editProduct(product){
-        await fetch(`http://localhost:3001/products/${params.id}`, {
+        await fetch(`http://localhost:5173/produtos/${params.id}`, {
             method: "PUT",
             body: JSON.stringify(product)
         })

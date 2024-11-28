@@ -4,11 +4,11 @@ import ContatoPage from '../pages/ContatoPage'
 import SobrePage from '../pages/SobrePage'
 import ErrorPage from '../pages/ErrorPage'
 import PessoasPage from '../pages/PessoasPage'
-import ProductPage from '../pages/ProductPage'
+import ProductPage from '../pages/product/ProductPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import ProductDetalhe from '../pages/ProductDetalhe'
-import CadastrarProdutoPage from '../pages/CadastrarProdutoPage'
-import ProdutoEditarPage from '../pages/ProdutoEditarPage'
+import ProductDetalhe from '../pages/product/ProductDetalhe'
+import CadastrarProdutoPage from '../pages/product/CadastrarProdutoPage'
+import ProdutoEditarPage from '../pages/product/ProdutoEditarPage'
 
 
 
